@@ -20,10 +20,25 @@ namespace K9Kinship.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Programs()
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Trainers()
+        {
+            return View();
+        }
+
+        public ActionResult Opportunities()
+        {
+            return View();
+        }
+
+        public ActionResult ADA()
+        {
             return View();
         }
     }
